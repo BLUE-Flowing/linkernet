@@ -17,7 +17,7 @@ sys.path.append(belong_dir)
 import utils.misc as misc
 import utils.transforms as trans
 
-from datasets.linker_dataset import get_linker_dataset
+
 from models.diff_protac_bond import DiffPROTACModel
 from utils.reconstruct_linker import parse_sampling_result, parse_sampling_result_with_bond
 from torch_geometric.data import Batch
